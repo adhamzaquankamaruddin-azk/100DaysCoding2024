@@ -6,7 +6,6 @@ public class Day34 {
         
         System.out.print("Masukkan angka : ");
         int angka = sc.nextInt();
-        System.out.println(angka);
     }
     
 }
