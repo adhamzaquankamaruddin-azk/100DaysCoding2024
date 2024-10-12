@@ -10,9 +10,9 @@ public class Day41 {
         
         int asoal1 = 150;
         String bsoal1 = Integer.toString(asoal1);
-        System.out.println("Hasil konversi int ke String = " + bsoal1);
+        System.out.println("Hasil konversi integer ke String = " + bsoal1);
         int csoal1 = Integer.valueOf(bsoal1);
-        System.out.println("Hasil konversi String ke int = " + csoal1);
+        System.out.println("Hasil konversi String kembali ke integer = " + csoal1);
         System.out.println(); //Soutln kosong, cuma untuk memberi jarak soal satu dengan soal berikutnya
         
         // SOAL 2
@@ -65,6 +65,7 @@ public class Day41 {
         float dsoal5 = csoal5 / (bsoal5 * bsoal5);
         System.out.println("tinggi badan (meter): " + bsoal5);
         System.out.println("BMI Anda adalah: " + dsoal5);
+        
     }
     
 }
