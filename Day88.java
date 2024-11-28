@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Day88 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        while(true) {
+        
         System.out.print("Masukkan Status (PNS / Non-PNS): ");
         String status = sc.next();
         
@@ -27,6 +27,6 @@ public class Day88 {
             }
         } else {
             System.out.println("Status Pegawai tidak valid. Masukkan status pegawai sesuai dengan ketentuan yang ada!");
-        }}
+        }
     }
 }
